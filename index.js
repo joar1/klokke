@@ -3,7 +3,6 @@ function showTime(){
    var hour = date.getHours();
    var min = date.getMinutes();
    var sec = date.getSeconds();
-   /* "?" er en shorthand av if-else */
    hour = (hour < 10) ? "0" + hour : hour;
    min = (min < 10) ? "0" + min : min;
    sec = (sec < 10) ? "0" + sec : sec;     
